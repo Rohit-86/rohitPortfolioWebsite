@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.socialmedia {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.socialmedia img {
+  margin: 19px;
+  height: 50px;
+  width: 50px;
+  transition: 0.25s;
+}
+.socialmedia img:hover {
+  transform: scale(1.2);
+  padding-bottom: 19px;
+}

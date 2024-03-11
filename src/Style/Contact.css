@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.cotactus {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 80px;
+}
+.contact {
+  background-color: whitesmoke;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 500;
+  margin: 30px;
+  box-shadow: 2px 2px 30px rgb(121, 109, 109);
+}
+.contact h1 {
+  font-size: 45px;
+}
+.details {
+  display: flex;
+  align-items: center;
+}
+.details .det {
+  margin: 10px;
+}
+.cotactus .contact input {
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+  width: 200px;
+  outline: none;
+  margin-top: 5px;
+}
+textarea {
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+  width: 440px;
+  outline: none;
+  height: 100px;
+  margin-top: 5px;
+}
+/* .contact button {
+  
+  padding: 10px;
+  border: none;
+  font-weight: bolder;
+}
+.contact button:hover {
+  transform: scaleZ(50);
+} */
+.contact button {
+  background-color: black;
+  color: white;
+  border: none;
+  width: 460px;
+
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.contact button:hover {
+  background-color: black; /* Change background color on hover */
+  transform: scale(1.05); /* Scale button on hover */
+  box-shadow: 0 0 30px rgb(90, 86, 86); /* Add box shadow on hover */
+}

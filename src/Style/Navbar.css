@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+  padding-bottom: 10px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff; /* Set your desired background color */
+  z-index: 1000;
+}
+.navbar a {
+  text-decoration: none;
+  color: black;
+}
+.navbar .logo {
+  text-shadow: 1px 1px 3px;
+}
+.contents {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+}
+.contents h3:hover {
+  padding-bottom: 5px;
+  border-bottom: 1px solid black;
+}

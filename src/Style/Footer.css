@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.footer .address img {
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+}
+.address .add {
+  display: flex;
+  align-items: center;
+}
+.footer {
+  background-color: rgb(199, 197, 197);
+  padding-bottom: 19px;
+  padding-top: 10px;
+  display: flex;
+  align-items: start;
+  justify-content: space-around;
+}
+.madeby {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+}

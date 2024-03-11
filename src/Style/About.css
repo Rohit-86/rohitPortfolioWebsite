@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.about .edu {
+  background-color: whitesmoke;
+  width: 1050px;
+  margin: 20px;
+  border-radius: 10px;
+  padding: 20px;
+  transition: 0.3s;
+}
+.about .edu:hover {
+  transform: scale(1.02);
+  color: white;
+  background-color: black;
+}

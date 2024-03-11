@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+.welcome {
+  font-size: x-large;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.welcome h1 {
+  text-shadow: 1px 1px 3px;
+  padding: 30px;
+}
+#about {
+  padding: 90px 220px;
+}
+.welcome h2 {
+  border-bottom: 1px solid black;
+  padding: 10px;
+}

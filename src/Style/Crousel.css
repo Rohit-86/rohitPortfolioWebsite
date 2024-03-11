@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.hero {
+  align-items: center;
+  display: flex;
+  font-size: x-large;
+  justify-content: space-between;
+  padding: 60px 235px;
+  background-image: url("../Images/12490.jpg");
+}
+.hero .name {
+  text-shadow: 1px 1px 3px gray;
+  padding: 100px 0px;
+  width: 1050px;
+}
+.profilepic {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.profilepic img {
+  height: 280px;
+  width: 300px;
+  padding: 10px 10px;
+  background-color: gainsboro;
+  border-inline-start-width: 50px;
+}
+.profilepic button {
+  width: 300px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  font-size: larger;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.resume-link {
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+}
+
+.resume-link:hover {
+  color: black; /* Change color on hover if desired */
+  background-color: white;
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
